@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+:root{font-family:"Inter",sans-serif;color:#f5f5f4;background:#080a0d;font-synthesis:none;text-rendering:optimizeLegibility}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;min-width:320px;background:#080a0d}::selection{background:#f2b233;color:#090a0c}
+.display{font-family:"Barlow Condensed",sans-serif}.container-page{width:min(1220px,calc(100% - 40px));margin-inline:auto}
+.grid-tech{background-image:linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px);background-size:54px 54px}
+.image-overlay{background:linear-gradient(90deg,rgba(7,9,12,.94),rgba(7,9,12,.65) 42%,rgba(7,9,12,.08))}
+.reveal{transition:transform .35s,border-color .35s,box-shadow .35s}.reveal:hover{transform:translateY(-7px);border-color:rgba(242,178,51,.45);box-shadow:0 20px 60px rgba(0,0,0,.28)}
+.input-dark{background:#101419;border:1px solid rgba(255,255,255,.09);outline:none}.input-dark:focus{border-color:rgba(242,178,51,.75)}
