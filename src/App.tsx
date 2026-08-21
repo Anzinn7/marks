@@ -3,7 +3,8 @@ import {ArrowRight,ChevronDown,Menu,X,Factory,Gauge,Ruler,Cog,Boxes,Mail,Phone,M
 
 const hero="https://images.unsplash.com/photo-1565439374674-9f4bcb9b4b3c?auto=format&fit=crop&w=2200&q=85";
 const cnc="https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1400&q=85";
-const quality = "/assets/metrologia.jpg";
+const base = "/marks/";
+const quality = `${base}assets/metrologia.jpg`;
 
 const services=[
 {icon:Cog,n:"01",title:"Usinagem CNC",text:"Produção de peças com precisão, rastreabilidade e controle de processo para aplicações industriais exigentes."},
@@ -12,9 +13,9 @@ const services=[
 {icon:Gauge,n:"04",title:"Produção Seriada",text:"Estrutura preparada para transformar pequenos lotes em produção consistente, eficiente e escalável."}];
 
 const videos=[
-  {title:"Sobre A MARKS",tag:"PROCESSO",poster:cnc,file:"/videos/sobre.mp4"},
-  {title:"Usinagem",tag:"USINAGEM",poster:quality,file:"/videos/controle-qualidade.mp4"},
-  {title:"Dentro da fábrica",tag:"ESTRUTURA",poster:hero,file:"/videos/dentro-da-fabrica.mp4"},
+  {title:"Sobre A MARKS",tag:"PROCESSO",poster:cnc,file:`${base}videos/sobre.mp4`},
+  {title:"Usinagem",tag:"USINAGEM",poster:quality,file:`${base}videos/controle-qualidade.mp4`},
+  {title:"Dentro da fábrica",tag:"ESTRUTURA",poster:hero,file:`${base}videos/dentro-da-fabrica.mp4`},
 ];
 
 const machines=[
